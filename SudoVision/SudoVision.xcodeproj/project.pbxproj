@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CAFE7C92A861A9C00FFCAF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAFE7C82A861A9C00FFCAF2 /* Assets.xcassets */; };
+		7CAFE7D42A861B7A00FFCAF2 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7D32A861B7A00FFCAF2 /* CachedImageManager.swift */; };
+		7CAFE7D62A861B9300FFCAF2 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7D52A861B9300FFCAF2 /* Camera.swift */; };
+		7CAFE7D82A861BA500FFCAF2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7D72A861BA500FFCAF2 /* DataModel.swift */; };
+		7CAFE7DA2A861BB200FFCAF2 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7D92A861BB200FFCAF2 /* PhotoAsset.swift */; };
+		7CAFE7DC2A861BC200FFCAF2 /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7DB2A861BC200FFCAF2 /* PhotoAssetCollection.swift */; };
+		7CAFE7DE2A861BDB00FFCAF2 /* PhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7DD2A861BDB00FFCAF2 /* PhotoLibrary.swift */; };
+		7CAFE7E12A861C1600FFCAF2 /* Solver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7E02A861C1600FFCAF2 /* Solver.swift */; };
+		7CAFE7E42A861C5A00FFCAF2 /* sudokuSolver_Wrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7E32A861C5A00FFCAF2 /* sudokuSolver_Wrapper.mm */; };
+		7CAFE7E72A861C7900FFCAF2 /* sudokuSolver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7E52A861C7900FFCAF2 /* sudokuSolver.cpp */; };
+		7CAFE7EB2A861CE500FFCAF2 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7EA2A861CE500FFCAF2 /* CameraView.swift */; };
+		7CAFE7ED2A861CF500FFCAF2 /* ImageResolverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7EC2A861CF500FFCAF2 /* ImageResolverView.swift */; };
+		7CAFE7EF2A861D0A00FFCAF2 /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7EE2A861D0A00FFCAF2 /* PhotoCollectionView.swift */; };
+		7CAFE7F12A861D1A00FFCAF2 /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7F02A861D1A00FFCAF2 /* PhotoItemView.swift */; };
+		7CAFE7F32A861D2E00FFCAF2 /* SolverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7F22A861D2E00FFCAF2 /* SolverView.swift */; };
+		7CAFE7F52A861D3F00FFCAF2 /* ThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7F42A861D3F00FFCAF2 /* ThumbnailView.swift */; };
+		7CAFE7F72A861D5300FFCAF2 /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7F62A861D5300FFCAF2 /* ViewfinderView.swift */; };
+		7CAFE7F92A861D6C00FFCAF2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7F82A861D6C00FFCAF2 /* Extensions.swift */; };
+		7CAFE7FB2A861D7900FFCAF2 /* SudoVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE7FA2A861D7900FFCAF2 /* SudoVisionApp.swift */; };
+		7CAFE8012A86216E00FFCAF2 /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFE8002A86216E00FFCAF2 /* PhotoCollection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CAFE7C12A861A9B00FFCAF2 /* SudoVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudoVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAFE7C82A861A9C00FFCAF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CAFE7D32A861B7A00FFCAF2 /* CachedImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
+		7CAFE7D52A861B9300FFCAF2 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		7CAFE7D72A861BA500FFCAF2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		7CAFE7D92A861BB200FFCAF2 /* PhotoAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAsset.swift; sourceTree = "<group>"; };
+		7CAFE7DB2A861BC200FFCAF2 /* PhotoAssetCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAssetCollection.swift; sourceTree = "<group>"; };
+		7CAFE7DD2A861BDB00FFCAF2 /* PhotoLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibrary.swift; sourceTree = "<group>"; };
+		7CAFE7E02A861C1600FFCAF2 /* Solver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solver.swift; sourceTree = "<group>"; };
+		7CAFE7E22A861C3500FFCAF2 /* sudokuSolver_Wrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sudokuSolver_Wrapper.h; sourceTree = "<group>"; };
+		7CAFE7E32A861C5A00FFCAF2 /* sudokuSolver_Wrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = sudokuSolver_Wrapper.mm; sourceTree = "<group>"; };
+		7CAFE7E52A861C7900FFCAF2 /* sudokuSolver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sudokuSolver.cpp; sourceTree = "<group>"; };
+		7CAFE7E62A861C7900FFCAF2 /* sudokuSolver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = sudokuSolver.hpp; sourceTree = "<group>"; };
+		7CAFE7E82A861CB600FFCAF2 /* SudoVision-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SudoVision-Bridging-Header.h"; sourceTree = "<group>"; };
+		7CAFE7EA2A861CE500FFCAF2 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		7CAFE7EC2A861CF500FFCAF2 /* ImageResolverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResolverView.swift; sourceTree = "<group>"; };
+		7CAFE7EE2A861D0A00FFCAF2 /* PhotoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
+		7CAFE7F02A861D1A00FFCAF2 /* PhotoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
+		7CAFE7F22A861D2E00FFCAF2 /* SolverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolverView.swift; sourceTree = "<group>"; };
+		7CAFE7F42A861D3F00FFCAF2 /* ThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailView.swift; sourceTree = "<group>"; };
+		7CAFE7F62A861D5300FFCAF2 /* ViewfinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewfinderView.swift; sourceTree = "<group>"; };
+		7CAFE7F82A861D6C00FFCAF2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7CAFE7FA2A861D7900FFCAF2 /* SudoVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudoVisionApp.swift; sourceTree = "<group>"; };
+		7CAFE8002A86216E00FFCAF2 /* PhotoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CAFE7BE2A861A9B00FFCAF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CAFE7B82A861A9B00FFCAF2 = {
+			isa = PBXGroup;
+			children = (
+				7CAFE7C32A861A9B00FFCAF2 /* SudoVision */,
+				7CAFE7C22A861A9B00FFCAF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CAFE7C22A861A9B00FFCAF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CAFE7C12A861A9B00FFCAF2 /* SudoVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CAFE7C32A861A9B00FFCAF2 /* SudoVision */ = {
+			isa = PBXGroup;
+			children = (
+				7CAFE7E52A861C7900FFCAF2 /* sudokuSolver.cpp */,
+				7CAFE7E22A861C3500FFCAF2 /* sudokuSolver_Wrapper.h */,
+				7CAFE7E82A861CB600FFCAF2 /* SudoVision-Bridging-Header.h */,
+				7CAFE7E62A861C7900FFCAF2 /* sudokuSolver.hpp */,
+				7CAFE7E32A861C5A00FFCAF2 /* sudokuSolver_Wrapper.mm */,
+				7CAFE7D32A861B7A00FFCAF2 /* CachedImageManager.swift */,
+				7CAFE7D52A861B9300FFCAF2 /* Camera.swift */,
+				7CAFE7EA2A861CE500FFCAF2 /* CameraView.swift */,
+				7CAFE7D72A861BA500FFCAF2 /* DataModel.swift */,
+				7CAFE7F82A861D6C00FFCAF2 /* Extensions.swift */,
+				7CAFE7EC2A861CF500FFCAF2 /* ImageResolverView.swift */,
+				7CAFE7D92A861BB200FFCAF2 /* PhotoAsset.swift */,
+				7CAFE7DB2A861BC200FFCAF2 /* PhotoAssetCollection.swift */,
+				7CAFE8002A86216E00FFCAF2 /* PhotoCollection.swift */,
+				7CAFE7EE2A861D0A00FFCAF2 /* PhotoCollectionView.swift */,
+				7CAFE7F02A861D1A00FFCAF2 /* PhotoItemView.swift */,
+				7CAFE7DD2A861BDB00FFCAF2 /* PhotoLibrary.swift */,
+				7CAFE7E02A861C1600FFCAF2 /* Solver.swift */,
+				7CAFE7F22A861D2E00FFCAF2 /* SolverView.swift */,
+				7CAFE7FA2A861D7900FFCAF2 /* SudoVisionApp.swift */,
+				7CAFE7F42A861D3F00FFCAF2 /* ThumbnailView.swift */,
+				7CAFE7F62A861D5300FFCAF2 /* ViewfinderView.swift */,
+				7CAFE7C82A861A9C00FFCAF2 /* Assets.xcassets */,
+			);
+			path = SudoVision;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CAFE7C02A861A9B00FFCAF2 /* SudoVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CAFE7CF2A861A9C00FFCAF2 /* Build configuration list for PBXNativeTarget "SudoVision" */;
+			buildPhases = (
+				7CAFE7BD2A861A9B00FFCAF2 /* Sources */,
+				7CAFE7BE2A861A9B00FFCAF2 /* Frameworks */,
+				7CAFE7BF2A861A9B00FFCAF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudoVision;
+			productName = SudoVision;
+			productReference = 7CAFE7C12A861A9B00FFCAF2 /* SudoVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CAFE7B92A861A9B00FFCAF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7CAFE7C02A861A9B00FFCAF2 = {
+						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
+					};
+				};
+			};
+			buildConfigurationList = 7CAFE7BC2A861A9B00FFCAF2 /* Build configuration list for PBXProject "SudoVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CAFE7B82A861A9B00FFCAF2;
+			productRefGroup = 7CAFE7C22A861A9B00FFCAF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CAFE7C02A861A9B00FFCAF2 /* SudoVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CAFE7BF2A861A9B00FFCAF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAFE7C92A861A9C00FFCAF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CAFE7BD2A861A9B00FFCAF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CAFE8012A86216E00FFCAF2 /* PhotoCollection.swift in Sources */,
+				7CAFE7F12A861D1A00FFCAF2 /* PhotoItemView.swift in Sources */,
+				7CAFE7D62A861B9300FFCAF2 /* Camera.swift in Sources */,
+				7CAFE7ED2A861CF500FFCAF2 /* ImageResolverView.swift in Sources */,
+				7CAFE7E72A861C7900FFCAF2 /* sudokuSolver.cpp in Sources */,
+				7CAFE7DC2A861BC200FFCAF2 /* PhotoAssetCollection.swift in Sources */,
+				7CAFE7EB2A861CE500FFCAF2 /* CameraView.swift in Sources */,
+				7CAFE7EF2A861D0A00FFCAF2 /* PhotoCollectionView.swift in Sources */,
+				7CAFE7FB2A861D7900FFCAF2 /* SudoVisionApp.swift in Sources */,
+				7CAFE7DA2A861BB200FFCAF2 /* PhotoAsset.swift in Sources */,
+				7CAFE7D42A861B7A00FFCAF2 /* CachedImageManager.swift in Sources */,
+				7CAFE7DE2A861BDB00FFCAF2 /* PhotoLibrary.swift in Sources */,
+				7CAFE7E42A861C5A00FFCAF2 /* sudokuSolver_Wrapper.mm in Sources */,
+				7CAFE7F32A861D2E00FFCAF2 /* SolverView.swift in Sources */,
+				7CAFE7F52A861D3F00FFCAF2 /* ThumbnailView.swift in Sources */,
+				7CAFE7F72A861D5300FFCAF2 /* ViewfinderView.swift in Sources */,
+				7CAFE7F92A861D6C00FFCAF2 /* Extensions.swift in Sources */,
+				7CAFE7E12A861C1600FFCAF2 /* Solver.swift in Sources */,
+				7CAFE7D82A861BA500FFCAF2 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CAFE7CD2A861A9C00FFCAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CAFE7CE2A861A9C00FFCAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CAFE7D02A861A9C00FFCAF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 89J38LCR86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "This app requires access to the image gallery";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanjdaniel.SudoVision0.0.0.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SudoVision/SudoVision-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CAFE7D12A861A9C00FFCAF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 89J38LCR86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "This app requires access to the image gallery";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chanjdaniel.SudoVision0.0.0.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SudoVision/SudoVision-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CAFE7BC2A861A9B00FFCAF2 /* Build configuration list for PBXProject "SudoVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAFE7CD2A861A9C00FFCAF2 /* Debug */,
+				7CAFE7CE2A861A9C00FFCAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CAFE7CF2A861A9C00FFCAF2 /* Build configuration list for PBXNativeTarget "SudoVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CAFE7D02A861A9C00FFCAF2 /* Debug */,
+				7CAFE7D12A861A9C00FFCAF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CAFE7B92A861A9B00FFCAF2 /* Project object */;
+}
