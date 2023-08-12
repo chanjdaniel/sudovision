@@ -44,6 +44,6 @@ Automatic detection of sudoku puzzle on button press
 
 <p>&nbsp;</p>
 
-Solution is overlayed onto image on button press
+Solution is overlaid onto image on button press
 
 <img src="https://github.com/chanjdaniel/sudovision/assets/97641190/9f11ad1a-7730-4978-8ac9-ef6e6da693ad" width="200">
